@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <form action="index.php" method="post">
+            <label for="Full Name">Full Name</label>
+            <input id="Full Name" type="text" placeholder="Enter ypur name"><br><br>
+            <label for="Email">Email</label>
+            <input id="Email" type="Email"><br><br>
+            <label for="password">Password</label>
+            <input id="password" type="passworf"><br><br>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" placeholder="01xxxxxxxx"><br><br>
+            <label for="age">Age</label>
+            <input id="age" type="Number" placeholder=min="1" max="150"><br><br>
+            <label for="dob">Daye Of Birth</label>
+            <input id="dob" type="Date"><br><br>
+            <label for="Gender">Gender</label>
+            <input id="gender" type="radio" value="male" name="gender">
+            <label for="male">Male</label>
+            <input id="male" type="radio" value="male" name="gender" >
+            <label for="Female">Female</label>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Education</legend>
+        <form action="index.php" method="post">
+           <label for="Department">Department</label> 
+           <select id="Subjects">
+               <option value="--selected--">--selected--</option>
+               <option value="BBA">BBA</option>
+               <option value="MBA">MBA</option>
+                <option value="CSE">CSE</option>
+           </select><br><br>
+           <label for="skills">Skills</label>
+           <input type="checkbox" value="HTML" name="subject">
+           <label for="HTML">HTML</label>
+           <input type="checkbox" value="CSS" name="subject">
+           <label for="CSS">CSS</label>
+           <input type="checkbox" value="Javascript" name="subject">
+           <label for="Javascript">JavaScript</label><br><br>
+           <label for="img">Upload CV</label>
+           <input type="file" id="img">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <form action="index.php" method="post">
+            <label for="city">City</label>
+            <input type="area" name="city"><br><br>
+            <label for="zip code">Zip Code</label>
+            <input type="area" name="zipcode"><br><br>
+            <input type="submit"
+            
+
+        </form>
+    </fieldset>
+</body>
+</html>
